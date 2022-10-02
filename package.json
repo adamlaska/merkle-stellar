@@ -81,6 +81,6 @@
     "regenerator-runtime": "0.13.2",
     "standard-version": "8.0.1",
     "ts-jest": "^26.5.4",
-    "typescript": "3.7.2"
+    "typescript": "3.9.10"
   }
 }
