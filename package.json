@@ -46,7 +46,9 @@
     "test": "jest --runInBand",
     "release": "standard-version",
     "build": "rm -rf lib/ && tsc",
-    "clean": "rm -rf lib/"
+    "clean": "rm -rf lib/",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "@msgpack/msgpack": "^1.11.0",
@@ -56,7 +58,8 @@
     "ora": "^4.0.3",
     "spinnies": "^0.5.1",
     "stellar-sdk": "^3.3.0",
-    "yargs": "^15.1.0"
+    "yargs": "^15.1.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@types/jest": "^26.0.22",
@@ -82,5 +85,6 @@
     "standard-version": "8.0.1",
     "ts-jest": "^26.5.4",
     "typescript": "3.7.2"
-  }
+  },
+  "snyk": true
 }
