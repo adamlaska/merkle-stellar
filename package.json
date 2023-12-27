@@ -50,12 +50,12 @@
   },
   "dependencies": {
     "@msgpack/msgpack": "^1.11.0",
-    "axios": "^0.21.1",
+    "axios": "^1.6.3",
     "chalk": "^3.0.0",
     "kbpgp": "^2.1.9",
     "ora": "^4.0.3",
     "spinnies": "^0.5.1",
-    "stellar-sdk": "^3.3.0",
+    "stellar-sdk": "^11.0.0",
     "yargs": "^15.1.0"
   },
   "devDependencies": {
